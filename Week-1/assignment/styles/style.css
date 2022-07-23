@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   }
+  /* sidebar section */
 .sidebar{
   position:fixed;
   width: 20px;
@@ -29,6 +30,7 @@
   font-size: 20px;
   background: rgb(209, 204, 204);
 }
+/* song borad section  */
 .cattyboard1{
       height: 150px;
       width: 150px;
@@ -59,6 +61,7 @@ padding-top:20px;
   margin-top: 0%;
   margin-bottom: 0%;
 }
+/* bottom player section code */
 .topbutton{
   margin-left: 190px;
   margin-top: 20px;
@@ -97,6 +100,7 @@ padding-top:20px;
     margin: 0%;
     border: 0%;
   }
+   /* Song list section table code   */
   table {
     border-collapse: collapse;
     width: 100%;
