@@ -1,0 +1,84 @@
+/* main section code */
+.main {
+  background-color: aquamarine;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: flex;
+  top: 200px;
+  margin: auto;
+}
+
+/* red card code */
+.red {
+  background-color: red;
+  display: inline-block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 0%;
+  top: 0%;
+}
+
+.main:hover .red {
+  transform: rotate(90deg);
+  transform-origin: top left;
+  transition: transform 1s linear;
+}
+/* yellow card code  */
+.yellow {
+  background-color: yellow;
+  display: inline-block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  top: 0%;
+}
+
+.main:hover .yellow {
+  transform: rotate(-90deg);
+  transform-origin: top right;
+  transition: transform 1s linear;
+}
+
+/* blue card code */
+.blue {
+  background-color: blue;
+  display: inline-block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 0%;
+  top: 50%;
+}
+
+.main:hover .blue {
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+  transition: transform 1s linear;
+}
+
+/* green card code */
+.green {
+  background-color: green;
+  display: inline-block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  top: 50%;
+}
+
+.main:hover .green {
+  transform: rotate(90deg);
+  transform-origin: bottom right;
+  transition: transform 1s linear;
+}
+
+/* text message code */
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
